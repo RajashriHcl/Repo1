@@ -17,7 +17,6 @@ pipeline {
       }
       steps {
         echo '""'
-        sh 'echo performNCE'
       }
     }
   }
