@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Build') {
+    stage('Initialize') {
       steps {
-        echo '""'
+        echo '"initial state"'
       }
     }
   }
