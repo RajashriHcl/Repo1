@@ -17,7 +17,7 @@ pipeline {
       }
       steps {
         echo '""'
-        sh './jenkins/scripts/test.sh'
+        sh 'echo performNCE'
       }
     }
   }
