@@ -13,7 +13,7 @@ pipeline {
     }
     stage('Report') {
       steps {
-        junit '""'
+        echo '""'
       }
     }
   }
