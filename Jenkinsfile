@@ -16,7 +16,7 @@ pipeline {
         CI = 'true'
       }
       steps {
-        echo '""'
+        echo '"REPORT"'
       }
     }
   }
