@@ -12,8 +12,12 @@ pipeline {
       }
     }
     stage('Report') {
+      environment {
+        CI = 'true'
+      }
       steps {
         echo '""'
+        sh './jenkins/scripts/test.sh'
       }
     }
   }
